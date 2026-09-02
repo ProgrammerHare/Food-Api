@@ -23,6 +23,6 @@ jobs:
 
     - name: Grant execute permission for Maven wrapper
       run: chmod +x mvnw
-
-    - name: Build and Test with Maven
-      run: ./mvnw clean verify
+      
+   - name: Build and Test with Maven
+      run: mvn clean verify
